@@ -1,0 +1,37 @@
+#burger-list img {
+    border: 1 px solid #000000;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+    aspect-ratio: 16/9;
+}
+#burger-list p {
+    text-align: center;
+    font-size: larger;
+     font-weight: bold;
+}
+#burger-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container {
+    display: flex; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    justify-content: space-evenly;
+   }
+   
+   #burger-images img {
+    margin: 5px;
+   }
+   
+   .text {
+    display: flex;
+     font-size: 50px;
+     padding: 50px;
+     flex-direction: column;
+     justify-content: space-evenly;
+     
+   }
