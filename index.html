@@ -12,12 +12,18 @@
             </div>
     </header>
     <div class="container">
-        <img id="burger-images" src="https://olo-images-live.imgix.net/a3/a3ce06862c014a69906e191cfb8fc94e.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=61bbafbc14fa201628605186cc1bdcf1" alt="Burgers"></div>
+        <img id="burger-images" src="" alt="Burgers"></div>
             <div class="text">
                 <div id="burger-names"></div>
                 <div id="description"></div>
-                <div id="comments"></div>
                 <div id="rating"></div>
+                <button id="btn">Thumbs Up</button>
+                <div id="comments"></div>
+                <form id="createComment">
+                    <label for="new-comment">Comment: </label>
+                    <textarea name="new-comment" id="new-comment"></textarea>
+                    <input type="submit" value="Submit New Comment"/>
+                </form>
         </div>
     </div>
     <script src="index.js"></script>
