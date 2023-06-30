@@ -4,40 +4,64 @@
             "id": 1,
             "name": "Cheesecake Burger",
             "images": "https://olo-images-live.imgix.net/a3/a3ce06862c014a69906e191cfb8fc94e.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=61bbafbc14fa201628605186cc1bdcf1",
-            "description": "Charbroiled on a Toasted Brioche Bun with Lettuce, Tomato, Onion, Pickles and Mayonnaise.",
-            "comments": "Never had a burger this good!",
+            "description": "The classic fullstack with a vegetable garden on top",
+            "comments": "My oh my, that is one thick patty!",
             "rating": 0
         },
         {
             "id": 2,
             "name": "Five Guys Burger",
             "images": "https://goodburgerpopup.com/wp-content/uploads/2022/08/you-can-build-your-own-burger-137357-3.webp",
-            "description": "Toasted sesame seed bun with ketchup, onion, cheese, lettuce, pickles and tomato!",
-            "comments": "It takes five guys",
+            "description": "Classic cheeseburger, yet worth half your rent",
+            "comments": "It really takes five guys to make one burger?",
             "rating": 0
         },
         {
             "id":"3",
-            "name":"Classic Bacon Cheesburger",
+            "name":"Applebees Burger",
             "images": "https://olo-images-live.imgix.net/dc/dc18e5a0155445a1a18e2983ec91ec19.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=331&fit=fill&fm=png32&bg=transparent&s=fc9763f1167194b86e7f5def3e830c8e",
-            "description": "Classic bacon Cheeseburger with two strips of Applewood-smoked bacon. Served with lettuce, tomato, onion and pickles on a Brioche bun.",
-            "comments":"juiciest burger I have ever ahd in my life!",
+            "description": "Picture worthy, but not taste worthy",
+            "comments":"Who would've thought a bun could have smoother skin than mine?",
             "rating":0
         },
         {
             "id":"4",
-            "name":"Red Robin Classic Bacon Burger",
+            "name":"Red Robin Burger",
             "images": "https://olo-images-live.imgix.net/1d/1d1ab0d9df6c4512be9fcbd781e4d594.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1725&h=975&fit=fill&fm=png32&bg=transparent&s=8f3cbbf4635c1c7bbfff4b275bc78ed7",
-            "description":"Regular toasted bun with ranch,cheese, bacon, tomato, and lettuce!",
-            "comments":"I don't know about you but this burger beats everything!",
+            "description":"Has all the daily nutrients you need under one bun!",
+            "comments":"Good, but easy on the lettuce, feels like I'm eating an iceberg",
             "rating": 0
         },
         {
             "id":"5",
-            "name":"ShackBurger",
+            "name":"Shakeshack Burger",
             "images": "https://d2luv1saso99wi.cloudfront.net/2022_Digital-Menu_Burgers_ShackBurger_1500x920_lg1663589553.jpeg",
-            "description":"We call this the shack burger, nicely toasted bun with mac sauce cheese tomato and lettuce!",
-            "comments":"it's a good cheeseburger, It could have more sauce but overall it's good!",
+            "description":"Don't compare us to In-n-Out, we take that as an insult",
+            "comments":"They really shack up the burger the way you want",
+            "rating": 0
+        },
+        {
+            "id":"6",
+            "name":"Steak n Shake",
+            "images":"https://cdn.southpointcasino.com/wp-content/uploads/sites/1/2013/04/DSteakburger_Cheese_081210.jpg",
+            "description":"Steak and cheese in between buns, I'd like 3 please",
+            "comments":"Very meaty meat, very cheesy cheese, and the pickles just top it off",
+            "rating": 0
+        },
+        {
+            "id":"7",
+            "name":"Wendys",
+            "images":"https://1.bp.blogspot.com/-O5o8KdB1f6g/U-lpHVr4UAI/AAAAAAAAevo/uJsT2LE654g/s1600/wendys-pretzel-bacon-cheeseburger.jpg",
+            "description":"You won't need to eat the rest of the day after getting lunch with us",
+            "comments":"Dorothy had red slippers, Wendy had red hair AND stacked burgers",
+            "rating": 0
+        },
+        {
+            "id":"8",
+            "name":"Whataburger",
+            "images":"https://assets.bonappetit.com/photos/57bf24fda184a3c9209db2a3/master/w_1600%2Cc_limit/whataburger.jpg",
+            "description":"You'll really see why they say everything is bigger and better in Texas!",
+            "comments":"Ask for the WhataSize........ your life will change forever!!",
             "rating": 0
         }
     ]

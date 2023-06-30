@@ -7,6 +7,7 @@ fetch('http://localhost:3000/Food')
 displayFood(data[0])
 addLikes ()
 newComment()
+newBurger()
 });
 function foodList (food) {
     const createImage = document.createElement("img");
@@ -66,3 +67,21 @@ e.preventDefault()
     div.textContent = `Comment: ${newComment.value}`
     })
 };
+function newBurger () {
+    const createBurger = document.getElementById("createBurger");
+    createBurger.addEventListener("submit", e => {
+        e.preventDefault();
+        const burgerName = document.getElementById("newBurgerName").value;
+        const burgerImage = document.getElementById("burgerURL").value;
+        const burgerDescription = document.getElementById("burgerDescription").value;
+        const burgerComment = document.getElementById("burgerComment").value;
+            const newBurger = {
+                name: burgerName,
+                images: burgerImage,
+                description: burgerDescription,
+                comments: burgerComment,
+                rating:0,
+            }
+        foodList(newBurger);
+    });
+}
